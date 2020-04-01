@@ -2,6 +2,8 @@
 
 Movie Directory is built in React. This app allows users to view a searchable list of movies.
 
+Click [Here](https://darrenrevans10.github.io/Garlic/) to view app.
+
 ## Running & Developing Locally
 
 Work off of the ```master``` branch.
@@ -10,4 +12,4 @@ Work off of the ```master``` branch.
 $ npm start
 ```
 
-Application will be served on http://localhost:3003.
+Application will be served on http://localhost:3000.
