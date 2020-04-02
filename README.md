@@ -2,6 +2,8 @@
 
 Movie Directory is built in React with an Express backend. This app allows users to view and search their favorite movies!
 
+This application can be viewed [HERE](https://darrens-movie-directory.herokuapp.com/)
+
 ## Running & Developing Locally
 
 Work off of the ```master``` branch.
