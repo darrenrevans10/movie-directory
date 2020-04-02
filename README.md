@@ -1,12 +1,10 @@
-# React Express Starter Pack
+# Movie Directory
 
-> Create full stack apps with React and Express. Run your client and server with a single command. 
+Movie Directory is built in React with an Express backend. This app allows users to view search for their favorite movies.
 
-### Redux Version
-This version does not include Redux
-[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
+## Running & Developing Locally
 
-## Quick Start
+Work off of the ```master``` branch.
 
 ``` bash
 # Install dependencies for server
@@ -24,20 +22,5 @@ npm run server
 # Run the React client only
 npm run client
 
-# Server runs on http://localhost:5000 and client on http://localhost:3000
+# Server runs on http://localhost:5000 and client will be served on http://localhost:3000
 ```
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
