@@ -17,6 +17,7 @@ const Banner = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   background-color: #24232e;
   font-size: 24px;
   color: #ffffff;
@@ -29,8 +30,8 @@ const Banner = styled.div`
 `;
 
 const ScrollContainer = styled.div`
+  flex: 1 1 auto;
   overflow: auto;
-  margin: auto;
   margin: ${props => (props.isLoading ? 'auto' : 'unset')};
 `;
 

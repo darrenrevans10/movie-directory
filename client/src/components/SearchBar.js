@@ -12,7 +12,8 @@ const SearchFilter = styled(TextField)`
     min-width: 300px;
 
     @media (max-width: 600px) {
-      margin-top: 25px;
+      margin-top: 15px;
+      width: 100%;
     }
   }
 `;

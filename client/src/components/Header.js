@@ -16,10 +16,15 @@ const RecentWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   font-size: 20px;
   font-weight: bold;
   padding: 0 50px 15px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+
+  @media (max-width: 600px) {
+    padding: 0 15px 15px;
+  }
 `;
 
 const Image = styled.img`
