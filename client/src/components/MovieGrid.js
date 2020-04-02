@@ -26,11 +26,12 @@ const GridContainer = styled.div`
 `;
 
 function MovieGrid(props) {
-  const { movies } = props;
+  const { movies, recents } = props;
+  const displayedMovies = movies.length ? movies : recents;
 
   return (
     <GridContainer>
-      {movies.map(movie => (
+      {displayedMovies.map(movie => (
         <MovieCard key={movie.imdbID} movie={movie} />
       ))}
     </GridContainer>

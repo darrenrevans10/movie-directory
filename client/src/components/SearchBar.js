@@ -20,7 +20,7 @@ const SearchFilter = styled(TextField)`
 function SearchBar(props) {
   const { keyword, setKeyword } = props;
   const [search, setSearch] = useState(keyword);
-  const dSearch = useDebounce(search, 500);
+  const dSearch = useDebounce(search, 800);
 
   const onSearchChange = val => {
     const newKeyword = isEmpty(val) ? '' : val;
