@@ -47,7 +47,7 @@ function Header(props) {
 
   if (isRecentList) return (
     <RecentWrapper>
-      <span>Recents</span>
+      <span>{`Recents (${recents.length})`}</span>
       <ClearButton color='primary' variant='outlined' onClick={() => setRecents([])}>
         Clear Recents
       </ClearButton>
