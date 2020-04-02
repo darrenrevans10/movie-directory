@@ -30,7 +30,6 @@ const Banner = styled.div`
 `;
 
 const ScrollContainer = styled.div`
-  flex: 1 1 auto;
   overflow: auto;
   margin: ${props => (props.isLoading ? 'auto' : 'unset')};
 `;

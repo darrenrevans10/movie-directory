@@ -10,6 +10,7 @@ const SearchFilter = styled(TextField)`
     background-color: #ffffff;
     border-radius: 5px;
     min-width: 300px;
+    min-height: 50px;
 
     @media (max-width: 600px) {
       margin-top: 15px;
